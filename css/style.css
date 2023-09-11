@@ -27,8 +27,11 @@ img {
     width: 100%;
 }
 
-.nav-row{
+.row{
     display: flex;
+}
+
+.justify-space-between{
     justify-content: space-between;
 }
 
@@ -50,12 +53,56 @@ img {
     color: white;
 }
 
+/* hero */
+
+.container-xl{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 80px;
+    text-align: center;
+}
+
+.flex-direction {
+    flex-direction: column;
+}
+
+.margin{
+    margin-top: 70px;
+}
+
+.col-4 {
+    flex-basis: calc((100% / 12) * 4) ;
+}
+
+.caption {
+    text-align: start;
+    font-size: 20px;
+}
+
+.col-8 {
+    flex-basis: calc((100% / 12) * 8) ;
+}
+
+/* debug*/
 /* debug-nav */
 
 .debug .container-fluid {
     border: 1px solid black;
 }
 
-.debugg .nav-col{
+.debug .nav-col{
+    /* border: 1px solid red; */
+}
+
+/* debug-hero */
+
+.debug .hero{
+    background-color: rgba(180, 208, 231, 1);
+}
+
+.debug .container-xl{
     border: 1px solid red;
 }
