@@ -1,13 +1,55 @@
+/* reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 ul,li,menu{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 img {
     max-width: 100%;
+}
+
+
+/* nav */
+
+.container-fluid {
+    width: 100%;
+}
+
+.nav.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-list{
+    display: flex;
+}
+
+.page-logo{
+
+}
+
+.page-logo{
+    padding: 33px 42px 33px 20px;
+}
+
+.nav-link{
+    padding: 33px 42px;
+}
+
+/* debug-nav */
+
+.debug .container-fluid {
+    border: 1px solid black;
 }
