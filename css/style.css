@@ -7,6 +7,7 @@
     font-family: sans-serif;
 }
 
+
 ul,li,menu{
     list-style: none;
 }
@@ -108,8 +109,8 @@ img {
 
 /* section card */
 
-.card{
-
+.card {
+    margin-top: 50px;
 }
 
 .container {
@@ -129,6 +130,33 @@ img {
     padding-left: 80px;
 }
 
+.border-card {
+    border: 1px solid rgba(237, 237, 238, 1);
+    text-align: start;
+}
+
+.title-card{
+    border: 1px solid rgba(246, 246, 246, 1);
+    text-align: center;
+    padding: 13px 0px;
+}
+
+.title-card-name {
+    display: inline-block;
+}
+
+.info-card{
+    padding:40px;
+}
+
+.info-card-size{
+    padding-bottom: 20px;
+}
+
+.lightgrey{
+    color: lightgrey;
+}
+
 /* debug*/
 /* debug-nav */
 
@@ -145,3 +173,5 @@ img {
 .debug .container-xl{
     /* border: 1px solid red; */
 }
+
+/* debug section card */
