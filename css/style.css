@@ -47,13 +47,17 @@ img {
     padding: 33px 20px 20px 20px;
 }
 
-.bg-start{
+.bg-button-blue{
     background-color: rgba(0, 97, 255, 1);
-    padding: 10px 20px;
+    padding: 10px 14px;
     color: white;
 }
 
 /* hero */
+
+.hero{
+    background-color: rgba(180, 208, 231, 1);
+}
 
 .container-xl{
     max-width: 1200px;
@@ -61,16 +65,17 @@ img {
 }
 
 .title {
+    padding-top: 50px;
     font-size: 80px;
-    text-align: center;
-}
-
-.flex-direction {
-    flex-direction: column;
+    text-align: start;
 }
 
 .margin{
     margin-top: 70px;
+}
+
+.justify-center{
+    justify-content: center;
 }
 
 .col-4 {
@@ -82,15 +87,28 @@ img {
     font-size: 20px;
 }
 
+.button-hero{
+    padding-top: 40px;
+}
+
+.button-hero .caption{
+    padding-top: 45px;
+}
+
+.button-hero i {
+    padding-top: 135px;
+    font-size: 50px;
+}
 .col-8 {
     flex-basis: calc((100% / 12) * 8) ;
 }
+
 
 /* debug*/
 /* debug-nav */
 
 .debug .container-fluid {
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .debug .nav-col{
@@ -99,10 +117,6 @@ img {
 
 /* debug-hero */
 
-.debug .hero{
-    background-color: rgba(180, 208, 231, 1);
-}
-
 .debug .container-xl{
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
