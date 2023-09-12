@@ -257,6 +257,7 @@ img {
 
 .section-grid .button-buy{
     padding-top: 30px;
+    padding-bottom: 130px;
 }
 
 .section-grid .col-4 {
@@ -264,11 +265,20 @@ img {
 }
 
 /* section colored grid */
+
+
 .img-sm{
     padding: 90px;
 }
 
-.flex{
+.signature{
+    padding-top: 50px;
+}
+.square-size{
+    padding: 40px;
+}
+
+.nowrap{
     display: flex;
 }
 
@@ -279,13 +289,11 @@ img {
 .bg-lime{
     background-color: rgba(162, 211, 155, 1);
     height: 50%;
-
 }
 
 .bg-magenta{
     background-color:rgba(97, 8, 43, 1) ;
     height: 50%;
-
 }
 
 .bg-azure{
@@ -293,9 +301,33 @@ img {
     height: 50%;
 }
 
-.bg-red{
+.bg-light-red{
     background-color: rgba(255, 28, 28, 1);
     height: 50%;
+}
+
+.bg-red{
+    height: 50%;
+    background-color: rgba(213, 0, 31, 1);
+}
+
+.bg-blue{
+    height: 50%;
+    background-color: rgba(13, 36, 129, 1);
+}
+
+.bg-light-azure{
+    height: 50%;
+    background-color: rgba(180, 208, 231, 1);
+}
+
+.bg-yellow{
+    height: 50%;
+    background-color: rgba(255, 216, 48, 1);
+}
+
+.bg-light-grey{
+    background-color: rgba(245, 245, 245, 1);
 }
 /* debug-nav */
 
@@ -327,11 +359,11 @@ img {
 
 /* debug section colored grid */
 
-.section-colored-grid .col-4{
+.section-colored-gridd .col-4{
     border: 1px solid red;
 }
 
-.section-colored-grid .col{
+.section-colored-gridd .col{
     border: 1px solid rgb(0, 186, 77);
 
 }
