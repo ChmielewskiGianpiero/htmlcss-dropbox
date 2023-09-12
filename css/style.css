@@ -246,8 +246,18 @@ img {
     font-size: 40px;
 }
 
+.title-footer-section-grid{
+    font-size: 30px;
+    padding-top: 100px;
+    
+}
 .title-card-grid {
     line-height: 20px;
+}
+
+.section-grid .button-buy{
+    padding-top: 30px;
+
 }
 
 .col-4 {
@@ -279,6 +289,6 @@ img {
 
 /* debug section grid */
 
-.debug .col-4{
+.debugg .col-4{
     border: 1px solid red;
 }
