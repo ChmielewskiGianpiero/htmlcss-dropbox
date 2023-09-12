@@ -48,12 +48,7 @@ img {
     padding: 33px 20px 20px 20px;
 }
 
-.bg-button-blue{
-    background-color: rgba(0, 97, 255, 1);
-    padding: 10px 14px;
-    color: white;
-    display: inline-block;
-}
+
 
 /* hero */
 
@@ -151,8 +146,21 @@ img {
 }
 
 .info-card-size{
-    padding-bottom: 20px;
-    
+    padding-bottom: 15px;
+}
+
+.info-card-button-size{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(0, 97, 255, 1);
+}
+
+.bg-button-blue{
+    color: white;
+    padding: 10px 10px;
+    color: white;
 }
 
 .info-card-size-month{
@@ -168,7 +176,7 @@ img {
 .line-card{
     border: 1px solid rgb(139, 139, 139);
     width: 20%;
-    margin: 65px 0;
+    margin: 40px 0px 65px 0px;
 }
 
 .lightgrey{
