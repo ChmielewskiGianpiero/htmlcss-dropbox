@@ -257,14 +257,46 @@ img {
 
 .section-grid .button-buy{
     padding-top: 30px;
-
 }
 
-.col-4 {
+.section-grid .col-4 {
     padding: 20px;
 }
 
+/* section colored grid */
+.img-sm{
+    padding: 90px;
+}
 
+.flex{
+    display: flex;
+}
+
+.item{
+    width: 100%;
+}
+
+.bg-lime{
+    background-color: rgba(162, 211, 155, 1);
+    height: 50%;
+
+}
+
+.bg-magenta{
+    background-color:rgba(97, 8, 43, 1) ;
+    height: 50%;
+
+}
+
+.bg-azure{
+    background-color: rgba(0, 147, 206, 1);
+    height: 50%;
+}
+
+.bg-red{
+    background-color: rgba(255, 28, 28, 1);
+    height: 50%;
+}
 /* debug-nav */
 
 .debugg .container-fluid {
@@ -291,4 +323,15 @@ img {
 
 .debugg .col-4{
     border: 1px solid red;
+}
+
+/* debug section colored grid */
+
+.section-colored-grid .col-4{
+    border: 1px solid red;
+}
+
+.section-colored-grid .col{
+    border: 1px solid rgb(0, 186, 77);
+
 }
