@@ -187,6 +187,10 @@ img {
     flex-basis: calc((100% /12) *12);
 }
 
+.card-bottom{
+    margin-top: 30px
+}
+
 .info-card-bottom-size{
     padding: 30px 40px;
 }
@@ -199,26 +203,61 @@ img {
     padding-right: 40px;
 }
 
-/* section 2 */
+/* section figure */
 
-
-
-
-/* debug*/
-/* debug-nav */
-
-.debug .container-fluid {
-    /* border: 1px solid black; */
+.section-figure {
+    margin-top: 150px;
 }
 
-.debug .nav-col{
-    /* border: 1px solid red; */
+.section-figure figcaption{
+    padding: 80px 40px 0 40px;
+}
+
+.title-section-figure {
+    line-height: 30px;
+    font-size: 25px;
+}
+
+.section-figure p{
+    padding-top: 30px;
+    line-height: 20px;
+}
+
+.figure-button {
+    margin-top: 35px;
+    padding: 11px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.col-7 {
+    flex-basis: calc((100% / 12) * 7);
+}
+
+.col-5{
+    flex-basis: calc((100% / 12) * 5);
+}
+
+
+
+/* debug-nav */
+
+.debugg .container-fluid {
+    border: 1px solid black;
+}
+
+.debugg .nav-col{
+    border: 1px solid red;
 }
 
 /* debug-hero */
 
-.debug .container-xl{
-    /* border: 1px solid red; */
+.debugg .container-xl{
+    border: 1px solid red;
 }
 
-/* debug section card */
+/* debug section figure */
+
+.debugg .col-7, .debugg .col-5 {
+    border: 1px solid red;
+}
