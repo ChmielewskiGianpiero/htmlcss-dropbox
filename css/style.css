@@ -273,7 +273,7 @@ img {
 
 
 .img-sm{
-    padding: 90px;
+    padding: 30%;
 }
 
 .signature{
@@ -285,10 +285,6 @@ img {
 
 .nowrap{
     display: flex;
-}
-
-.item{
-    width: 100%;
 }
 
 .bg-lime{
@@ -350,15 +346,28 @@ img {
     color: rgba(98, 14, 51, 1);
 }
 
-.justify-space-between{
-    justify-content: space-between;
-}
-
 .section-azure .col{
     align-self: center;
 }
 
+/* section faq */
 
+.section-faq .column{
+    flex-direction: column;
+}
+
+.section-faq .col {
+    padding: 20px 0;
+}
+
+.section-faq h2{
+    padding: 150px 0 40px 0;
+    font-size: 40px;
+}
+
+.border-faq{
+    border-bottom: 1px solid rgb(139, 139, 139);
+}
 
 
 
@@ -403,5 +412,10 @@ img {
 
 .section-colored-gridd .col{
     border: 1px solid rgb(0, 186, 77);
+}
 
+/* debug section faq */
+
+.section-faqq .col{
+    border: 1px solid rgb(0, 186, 77);
 }
