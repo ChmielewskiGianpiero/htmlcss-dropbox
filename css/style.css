@@ -63,7 +63,7 @@ img {
 }
 
 .title {
-    padding-top: 50px;
+    padding: 50px 0;
     text-align: start;
 }
 
@@ -80,7 +80,11 @@ img {
 }
 
 .col-4 {
-    flex-basis: calc((100% / 12) * 4) ;
+    flex-basis: calc((100% / 12) * 4);
+}
+
+.col-4-card {
+    flex-basis: calc((100% / 12) * 4 - 30px);
 }
 
 .caption {
@@ -107,7 +111,8 @@ img {
 /* section card */
 
 .card {
-    margin-top: 50px;
+    padding-bottom: 30px;
+    gap: 45px;
 }
 
 .container {
@@ -120,7 +125,7 @@ img {
 }
 
 .radio-button{
-    margin-top: 50px;
+    padding-bottom: 60px;
     display: inline-block;
 }
 .radio-button-annuale{
@@ -128,11 +133,11 @@ img {
 }
 
 .border-card {
-    border: 1px solid rgb(139, 139, 139);;
+    border: 1px solid rgb(139, 139, 139);
 }
 
 .title-card{
-    border: 1px solid rgb(139, 139, 139);;
+    border-bottom: 1px solid rgb(139, 139, 139);;
     text-align: center;
     padding: 13px 0px;
 }
@@ -187,9 +192,7 @@ img {
     flex-basis: calc((100% /12) *12);
 }
 
-.card-bottom{
-    margin-top: 30px
-}
+
 
 .info-card-bottom-size{
     padding: 30px 40px;
@@ -206,7 +209,7 @@ img {
 /* section figure */
 
 .section-figure {
-    margin-top: 150px;
+    padding-top: 150px;
 }
 
 .section-figure figcaption{
@@ -244,7 +247,7 @@ img {
 /* section grid */
 
 .title-section-grid{
-    padding: 100px 0 30px 0;
+    padding: 160px 0 30px 0;
     font-size: 40px;
 }
 
@@ -351,7 +354,7 @@ img {
     justify-content: space-between;
 }
 
-.justify-space-between .col{
+.section-azure .col{
     align-self: center;
 }
 
